@@ -7,6 +7,7 @@ tables.
 To pull customers by country, my developers should know where all the Customer Data is available.
 So, the data extracting will be done by our Source System. They will pull all the relevant customer
 data and will give us a pipe delimited data file.
+
 In design documents, you will have:
 ◦ File Name Specification – Name String, Extension of the files
 ◦ Date and Time format of the File – YYYYMMDD, HHMMSSTT or any other format
@@ -14,6 +15,7 @@ In design documents, you will have:
 ◦ Header Records Layout – |H|Customer_Records|20131012|1245872|
 ◦ Details Record Layout – |D|John|123456|20101012|20121013|MVD|Paul|NSW|AU|06031987|A
 ◦ Trailer Record Layout – |T|10|
+
 Detail records will tell you what data you are getting from source, what data type, is it mandatory or
 not and the length of the column.
 
