@@ -39,10 +39,17 @@ File Position Column Name Field Length Data Type Mandatory Key Column
 11 Active Customer 1 CHAR N N
 
  The sample file format will be:
+
 |H|Customer_Records|20131012|1245872|
+
 |D|Alex|123457|20101012|20121013|MVD|Paul|SA|USA|06031987|A
+
 |D|John|123458|20101012|20121013|MVD|Paul|TN|IND|06031987|A
+
 |D|Mathew|123459|20101012|20121013|MVD|Paul|WAS|PHIL|06031987|A
+
 |D|Matt|12345|20101012|20121013|MVD|Paul|BOS|NYC|06031987|A
+
 |D|Jacob|1256|20101012|20121013|MVD|Paul|VIC|AU|06031987|A
+
  You need to load the data into tables, one table per country
